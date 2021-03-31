@@ -1,0 +1,14 @@
+insert into account(fname,lname) values ("Audrey","Williamson");
+insert into account(fname,lname) values ("Michael","Allen");
+insert into recipe(recdate,recname,recinfo) values ("2021-03-27","Sense","Outside sense behind part time.");
+insert into recipe(recdate,recname,recinfo) values ("2021-03-27","Pretty","Total position soldier expect build entire.");
+insert into measurement(measure) values ("Wall");
+insert into measurement(measure) values ("Idea");
+insert into ingredients(ingredname) values ("Section");
+insert into ingredients(ingredname) values ("But");
+insert into instructions(command) values ("Its");
+insert into instructions(command) values ("Year");
+insert into kitchen(quantity,ingredName) values ("Upon","Clear");
+insert into kitchen(quantity,ingredName) values ("Lot","Project");
+insert into supermarket(groceryname,quantity) values ("Look","Bit");
+insert into supermarket(groceryname,quantity) values ("Save","Unit");

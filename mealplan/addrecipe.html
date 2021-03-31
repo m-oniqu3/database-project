@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <script src="validate.js" type="text/javascript"></script>
+
+
+        <title>Add Recipe</title>
+        <link rel="stylesheet" href="proj.css">
+    </head>
+
+    <body>
+
+        <form class="main-form" name="recipe"  >
+
+            <br>
+            <br>
+
+            <!-- Recipe Name -->
+            <div class="">
+                <label class="text-primary" for="recipename">Recipe Name</label>
+                <div class="">
+                <input type="text" class="form-control" id="recipename" name="recipename" placeholder="Enter recipe name" >
+                </div>
+            </div>
+            <br>
+
+            <!-- Recipe Type -->
+            <div class="">
+                <label class="text-primary" for="recipetype">Recipe Type </label>
+                <br>
+                <div class="form-check-inline">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" > Breakfast
+                    </label>
+                  </div>
+                  <div class="form-check-inline">
+                    <label class="form-check-label" for="radio2">
+                      <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"> Lunch
+                    </label>
+                  </div>
+                  <div class="form-check-inline">
+                    <label class="form-check-label" for="radio3">
+                      <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3"> Dinner
+                    </label>
+                  </div>
+            </div>
+            <br>
+        
+            <!-- Recipe Description -->
+            <div class="">
+                <label class="text-primary" for="recipedesc">Recipe Description</label>
+                <div class="">
+                    <textarea rows="5" cols="103" name="recipedesct" class="col-12"> Enter recipe description</textarea>
+                </div>
+            </div>
+            <br>
+            
+            <!-- Recipe Instruction -->
+            <div class="">
+                <label class="text-primary" for="recipeinst">Recipe Instruction</label>
+                <div class="">
+                    <textarea rows="5" cols="103" name="recipeinst" class="col-12"> Enter recipe instruction</textarea>
+                </div>
+            </div>
+
+            <br>
+            <div class="">
+                <label class="text-primary" for="servings">Servings</label>
+                <div class="">
+                <input type="number" class="form-control" id="servings" name="servings" placeholder="Enter the servings amount" >
+                </div>
+            </div>
+            <br>
+            <div class="">
+                <label class="text-primary" for="count">Calorie Count</label>
+                <div class="">
+                <input type="number" class="form-control" id="scount" name="count" placeholder="Enter the calorie count" >
+                </div>
+            </div>
+            <br>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+           
+             
+                
+            
+        </form>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+       
+        
+    </body>
+
+</html>
