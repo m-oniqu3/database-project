@@ -114,20 +114,18 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
-                    <a href="#" class="nav-item nav-link active">Home</a>
-                    <a href="#" class="nav-item nav-link">Add Recipe</a>
-                    <a href="#" class="nav-item nav-link">Plan Weekly Meal</a>
+                    <a href="userhome.html" class="nav-item nav-link active">Home</a>
+                    
                 </div>
                 <div class="navbar-nav ml-auto">
                     <a href="register.php" class="nav-item nav-link">Sign Up</a>
-                    <a href="#" class="nav-item nav-link">Login</a>
+                    <a href="login.php" class="nav-item nav-link">Login</a>
                 </div>
             </div>
         </nav>
 
 
     <div class="container ">
-
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" class="col-lg-8 mx-auto mt-3 p-5">
             <h1 class="display-4 text-info">Create your account</h1>
             <div class="lead text-info">Fill out this form to create your MealPlanner account. </div> <br>
